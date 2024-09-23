@@ -1,0 +1,105 @@
+/*NOTES:- 
+/*Priority order/Specificity = Inline Style > Id > Class/Pseudo Class/Attributes > Element/Pseudo Elements*/
+
+/*Universal Selector*/
+* { 
+    font-family: 'Courier New'; 
+    background-color: whitesmoke;
+}
+/*Element Selector*/
+h1, 
+h3 {
+    color: #b92b27 !important;
+}
+/*Id Selector*/
+#login {
+    background-color: beige;
+}
+#signup {
+    background-color: #b92b27;
+    color: white;
+}
+/*Class Selector*/
+.upvote {
+    background-color: green;
+}
+#myId p {
+    color: green; 
+}
+/*descendant Selector*/
+p a {
+    color: purple;
+    background-color: yellow;
+}
+nav ul li a {
+    color: pink;
+}
+/*Sibling Combinator*/
+p +h3 {
+    text-decoration: underline;
+}
+.upvote + button {
+    background-color: aqua;
+    color: blue;
+}
+/*Child Combinator*/
+div > input {
+    background-color: darkgray;
+}
+/*Attribute Selector*/
+input[type="text"] {
+    color: red;
+}
+input[type="password"] {
+    color: springgreen;
+}
+
+/*Psuedo Class:- 
+1. Hover->*/
+button:hover {
+    background-color: black;
+    color: white;
+}
+h3:hover {
+    text-decoration: overline;
+}
+/*2. Active->*/
+button:active {
+    background-color: darkmagenta;
+    color: black;
+}
+p:active {
+    font-weight: bold;
+    color: green;
+}
+/*3. Checked->*/
+input[type="radio"]:checked + label {
+    color: #b92b27;
+    font-weight: bold;
+}
+/*4. nth-of-type->*/
+div:nth-of-type(2n) {
+    background-color: blanchedalmond;
+}
+
+/*Pseudo Elements:- 
+1. First-letter->*/
+h1::first-letter {
+    color: green;
+}
+/*2. First-line->*/
+p::first-line {
+    color: blueviolet;
+}
+/*Selection->*/
+p::selection {
+    background-color: rgb(193, 255, 9);
+}
+
+/*Cascading*/
+h3 {
+    background-color: #b92b27;
+}
+h3 {
+    background-color: aqua;
+}  

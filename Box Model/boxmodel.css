@@ -1,0 +1,27 @@
+/*Height & Width*/
+div {
+    height: 500px;
+    width: 500px;
+    background-color: pink;
+}
+
+/*Border : width style color;*/
+div {
+    border-width: 5px;
+    border-style: solid;
+    border-color: slateblue;
+    border-left-color: aqua;
+    border-left-style: dashed;
+    border-top: 5px dashed blue;
+    border-radius: 50%;
+}
+h1 {
+    border-width: 2px;
+    border-style: dashed;
+    border-color: purple;
+    border-radius: 50%;
+}
+/*Padding*/
+div {
+    
+}
