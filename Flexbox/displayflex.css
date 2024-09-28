@@ -1,0 +1,25 @@
+#container {
+    height: 300px;
+    width: 80%;
+    background-color: white;
+    margin: 10px auto;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;  /* Flex Direction*/
+    justify-content: flex-start;  /* Edit the start along the axis */
+    flex-wrap: wrap;  /* Wrap the elements in the flexbox */
+    align-items: center;  /* Cross Section is align from top to bottom */
+    align-content: flex-start;  /* Align the content along the axis (top to bottom)*/
+}
+
+h1 {
+    text-align: center;
+}
+
+#container div {
+    height: 100px;
+    width: 300px;
+    color: antiquewhite;
+    text-align: center;
+    font-size: 1.5em;
+}
