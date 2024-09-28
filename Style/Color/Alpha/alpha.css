@@ -1,0 +1,12 @@
+div {
+    height: 200 px;
+    width: 200px;
+    background-color: rgba(255, 0, 0, 0.83);
+ /*a stands for alpha value that determines the Opacity of the color that are applying in the css*/
+}
+
+#opacity {
+    background-color: chocolate;
+    opacity: 1;
+/*Opacity is different from Alpha as the text also vanashes with the color in the page in opacity but not in Alpha */  
+}
